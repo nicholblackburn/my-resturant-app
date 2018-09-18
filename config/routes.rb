@@ -4,5 +4,5 @@ Rails.application.routes.draw do
   end
 
   #Do not place any routes below this one
-  if Rails.evn.production? get '*other', to: 'static#index'
+  get '*other', to: 'static#index'
 end
