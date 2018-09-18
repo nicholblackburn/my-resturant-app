@@ -14,7 +14,7 @@ class Api::MenusController < ApplicationController
     if menu.save
       render json: menu 
     else  
-      #  render_error(menu)
+       render_error(menu)
     end
   end
 
